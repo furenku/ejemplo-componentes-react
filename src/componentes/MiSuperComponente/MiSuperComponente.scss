@@ -1,0 +1,16 @@
+.MiSuperComponente {
+
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 50vh;
+    background-color: #0bc1ed;
+    
+    &> * {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 6rem;
+    }
+
+}
